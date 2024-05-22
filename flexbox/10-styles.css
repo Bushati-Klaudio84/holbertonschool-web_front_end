@@ -351,20 +351,16 @@
   /* Section HERO
       ============================= */
   
-      .section-hero.hero-homepage {
-        position: relative; 
-        margin-top: -8.5rem; 
-        background-position: 75% 0;
-        background-repeat: no-repeat;
-        background-size: 90rem auto;
-        background-color: #010101;
+      .hero-homepage {
+        position: relative;
+        margin-top: -8.5rem;
       }
       
-      .section-hero.hero-homepage .section-title {
+      .hero-homepage .section-title {
         margin-bottom: 5rem;
       }
       
-      .section-hero.hero-homepage .section-inner {
+      .hero-homepage .section-inner {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -372,13 +368,14 @@
         min-height: 50vh;
       }
       
-      .section-hero.hero-homepage .section-body {
+      .hero-homepage .section-body {
         padding: 10rem 4rem;
       }
       
-      .section-hero.hero-homepage .section-category {
-        color: var(--color-white); 
-        text-transform: uppercase; 
+      .hero-homepage .section-category {
+        color: var(--color-white);
+        text-transform: uppercase;
+      }
       
   
   /* Section Latest news ============================= */
