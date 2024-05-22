@@ -352,8 +352,8 @@
       ============================= */
   
       .section-hero.hero-homepage {
-        position: relative; /* Moved from .section-hero */
-        margin-top: -8.5rem; /* Moved from .section-hero */
+        position: relative; 
+        margin-top: -8.5rem; 
         background-position: 75% 0;
         background-repeat: no-repeat;
         background-size: 90rem auto;
@@ -373,13 +373,12 @@
       }
       
       .section-hero.hero-homepage .section-body {
-        padding: 10rem 4rem; /* Added */
+        padding: 10rem 4rem;
       }
       
       .section-hero.hero-homepage .section-category {
-        color: var(--color-white); /* Added */
-        text-transform: uppercase; /* Added */
-      }
+        color: var(--color-white); 
+        text-transform: uppercase; 
       
   
   /* Section Latest news ============================= */
