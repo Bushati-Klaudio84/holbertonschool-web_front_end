@@ -354,6 +354,7 @@
         position: relative;
         margin-top:-8.5rem;
       }
+
      .hero-homepage{
         background-position: 75% 0;
         background-repeat: no-repeat;
@@ -364,10 +365,11 @@
       .section-hero .section-body {
         padding: 10rem 4rem;
       }
+
       .section-hero .section-category{
-        color: color-white;
+        color: white;
         text-transform: uppercase;
-        
+
       }
       .section-hero .section-title {
         margin-bottom: 5rem;
