@@ -200,10 +200,9 @@
   
   /* Navbar
       ============================= */
-  
 
-  .nav {
-    display: flex;
+.nav {
+    display: flex; /* Added */
     margin: 0;
     padding: 0;
     list-style: none;
@@ -215,7 +214,9 @@
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
-    margin: var(--nav-item-margin);
+    /* display: flex; */ /* Removed */
+    margin: var(--nav-item-margin); /* Moved from .nav .nav-item */
+  }
   
   .nav .nav-link {
     display: block;
@@ -243,9 +244,11 @@
     background-color: var(--color-primary);
     width: 100%;
   }
+  
   .nav .nav-item + .nav-item {
-    margin: var(--nav-item-margin); 
+    margin: var(--nav-item-margin); /* Added */
   }
+  
 
 
   /* Header
