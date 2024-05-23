@@ -202,7 +202,7 @@
       ============================= */
 
 .nav {
-    display: flex; /* Added */
+    display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -214,8 +214,7 @@
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
-    /* display: flex; */ /* Removed */
-    margin: var(--nav-item-margin); /* Moved from .nav .nav-item */
+    margin: var(--nav-item-margin);
   }
   
   .nav .nav-link {
@@ -246,11 +245,9 @@
   }
   
   .nav .nav-item + .nav-item {
-    margin: var(--nav-item-margin); /* Added */
+    margin: var(--nav-item-margin);
   }
   
-
-
   /* Header
       ============================= */
   .header-container{
