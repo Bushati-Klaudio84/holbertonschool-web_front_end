@@ -355,6 +355,11 @@
         background-image: 150rem 100rem;
         background-position: 50% 0;
     }
+
+    .hero-article{
+      background-image:150rem 100rem;
+      background-position:50% 0;
+    }
     .hero-article::before {
         content: "";
         background: rgba(0, 0, 0, 0.8);
