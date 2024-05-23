@@ -206,6 +206,7 @@
     padding: 0;
     list-style: none;
     text-align: center;
+    margin: 0;
   }
   
   .nav .nav-item {
@@ -213,7 +214,6 @@
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
-    margin: 0;
   }
   
   .nav .nav-link {
