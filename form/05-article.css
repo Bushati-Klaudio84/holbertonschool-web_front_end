@@ -760,4 +760,7 @@ textarea:focus {
     transition: .3s;
     overflow: hidden;
 }
-.form-group .form-help 
+.form-group :focus .form-help{
+max-height: 20rem;
+margin: .4rem 0 0;
+}
