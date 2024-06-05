@@ -674,3 +674,10 @@ form {
     border: none;
     padding: 0 0 2rem;
   }
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: none;
+    padding: 0 0 2rem;
+  }
